@@ -1,0 +1,99 @@
+/* geral */
+body, h1, p, span {
+    margin: 0;
+    font-family: Montserrat;
+}
+
+body {
+    background-color: #1e2a3b;
+}
+
+h1 {
+    text-align: center;
+    margin: 30px 0;
+    color: #FFF;
+}
+
+/*calculadora*/
+#calculator {
+    background-color: #021127;
+    width: 400px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    border-radius: 20px;
+}
+
+#screen-container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    padding: 10px;
+    width: 258px;
+    height: 70px;
+    border: 3px solid #12468f;
+    text-align: right; /*faz os numero começarem da direit para a esquerda */
+    box-sizing: border-box; /* esse comandos ão deixam o numero vazar e não faz quebra de linha */
+    overflow: hidden;
+    white-space: nowrap;
+    border-radius: 6px;
+}
+
+#upper-number, #result-number {
+    float: right;
+    color: #FFF;
+}
+
+#result-number {
+    font-weight: bold;
+    margin-top: 5px;
+    font-size: 22px;
+    clear: both;
+}
+
+.btn-container {
+    position: relative; /* referencia para os elementos de forma absoluta*/
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.btn {
+    width: 50px;
+    height: 50px;
+    margin: 0 7.5px;
+    line-height: 50px;
+    text-align: center;
+    color: #FFF;
+    background-color: #354357;
+    font-size: 18px;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-color: #6c63FF;
+}
+
+#ac-btn {
+    margin-left: -200px;
+}
+
+#division-btn {
+    position: absolute;
+    right: 14px;
+}
+
+#zero-btn, #equals-btn {
+    width: 120px;
+}
+
+#ac-btn, #division-btn, #multiplication-btn, #minus-btn, #plus-btn, #equals-btn, #dot-btn, #zero-btn {
+    font-weight: 300;
+    font-size: 20px;
+}
