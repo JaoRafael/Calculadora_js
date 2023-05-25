@@ -66,7 +66,7 @@ class Calculator {
             } else if (actualItem == "/") {
                 result = calc.division(upperValueArray[i - 1], upperValueArray[i + 1]);
                 operation = 1;
-            //chega se o array ainda tem multiplicação e divisão a ser feita
+            //checa se o array ainda tem multiplicação e divisão a ser feita
             } else if (!upperValueArray.includes('x') && (!upperValueArray.includes('/'))) {
             // soma e subtração
                 if(actualItem == "+") {
